@@ -1,6 +1,6 @@
 import tweepy
 from time import sleep
-import credentials
+from credentials import *
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
